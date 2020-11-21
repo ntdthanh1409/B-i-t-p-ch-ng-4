@@ -1,8 +1,10 @@
 import random
 n=int(input("n="))
 list=[]
-if n <= 0:
+if n == 0:
     print(list,"Không có phần tử nào lớn nhất")
+elif n < 0:
+    print("Vui lòng nhập số nguyên dương")
 elif n > 0:
     for i in range(n):
         list.append(random.random())
