@@ -1,8 +1,3 @@
-#### heap sort
-#### min-heap
-#### bottom-top algorithm used
-
-
 heap.building<-function(vec)
 {
   len=length(vec)
